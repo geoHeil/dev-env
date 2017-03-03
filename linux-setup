@@ -1,3 +1,8 @@
+# assuming arch based manjaro base installation
+
+fix high dpi as outlined
+https://www.youtube.com/watch?v=5Kz2E5Xy5tw
+
 sudo apt install terminator
 
 sudo apt install zsh
