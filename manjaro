@@ -1,0 +1,7 @@
+manjaro installation
+
+download latest manjaro linux from https://manjaro.org/get-manjaro/
+I choose the KDE edition
+
+burn the image to a usb stick via follow https://wiki.manjaro.org/index.php?title=Burn_an_ISO_File
+dd bs=4M if=/path/to/manjaro.iso of=/dev/sd[drive letter] status=progress
