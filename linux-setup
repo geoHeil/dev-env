@@ -19,4 +19,7 @@ sudo apt update
 sudo apt install dropbox
 rm dropbox_2015.10.28_amd64.deb
 
+sudo apt install keepassx
+# explorer style windows
+# http://askubuntu.com/questions/483917/is-there-any-shortcut-keys-to-open-nautilus
 
