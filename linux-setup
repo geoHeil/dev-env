@@ -63,6 +63,7 @@ sudo cp include/* /usr/local/cuda/include/
 
 
 # TODO handle high dpi
+# TODO tastenanschlag, touchpad inversion
 # set keyboard shortcut to tile window
 # TODO update the whole system
 pacman update upgrade
