@@ -79,3 +79,4 @@ pacman -Syu
 # TODO tastenanschlag, touchpad inversion
 # set keyboard shortcut to tile window
 TODO multi touch gestures show desktop, show all windows of an application
+todo install tmux
