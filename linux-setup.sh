@@ -4,8 +4,7 @@ sudo pacman -S base-devel yaourt
 sudo pacman-mirrors -g
 sudo pacman -Syy
 
-yaourt -Syua
-#yaourt -Syuua --noconfirm
+yaourt -Syuua --noconfirm
 
 # fix high dpi as outlined
 # https://www.youtube.com/watch?v=5Kz2E5Xy5tw
@@ -18,9 +17,9 @@ yaourt google-chrome
 sudo pacman -S dropbox
 sudo pacman -S terminator
 
-yaourt intelliy-idea-ultimate-edition
+yaourt intellij-idea-ultimate-edition
 yaourt pycharm-professional
-yaourt 
+yaourt webstorm
 
 yaourt anaconda
 export PATH="/opt/anaconda/bin:$PATH"" >> ~/.bash_profile in zsh rc defined below
@@ -46,6 +45,9 @@ yaourt -S openblas-lapack
 sudo pacman -S gcc-fortran
 yaourt franz
 yaourt gitkraken
+yaourt apache-spark
+EXPORT SPART_HOME=/opt/apache-spark # into zshrc file
+yaourt hadoop
 sudo pacman -S sbt
 sudo R CMD javareconf
 yaourt apache-spark
@@ -68,19 +70,14 @@ jt -t chesterish
 
 pip install --upgrade tensorflow-gpu
 pip install keras
-# assumes cudnn folder downloaded locally into ~/Downloads
-# copy all to /usr/lib/cudnn respective directories
-sudo cp lib64/* /usr/local/cuda/lib64/
-sudo cp include/* /usr/local/cuda/include/
+sudo pacman -S tmux mosh
+yaourt virtualbox
+yaourt kitematic
+yaourt docker
+yaourt docker-compose
 
-TODO install libcurl latest version
-https://forum.manjaro.org/t/using-the-statistical-package-r-in-manjaro-with-rstudio/484
-tcltk.so not ofund
-
-yaourt -Syu
-pacman -Syu
-# TODO handle high dpi
-# TODO tastenanschlag, touchpad inversion
+yaourt -Syuua --noconfirm
+# tastenanschlag, touchpad inversion
 # set keyboard shortcut to tile window
 TODO multi touch gestures show desktop, show all windows of an application
-todo install tmux
+
