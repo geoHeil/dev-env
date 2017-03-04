@@ -18,10 +18,11 @@ yaourt intelliy-idea-ultimate-edition
 yaourt pycharm-professional
 yaourt anaconda
 source /opt/anaconda/bin/activate root
+export PATH="/opt/anaconda/bin:$PATH"" >> ~/.bash_profile in zsh rc defined below
 conda update --all
-# TODO put this into zsh.RC�
-
+conda create -n py275 python=2.7.5
 sudo pacman -S keepassx
+sudo pacman -S jdk8-openjdk 
 
 pacman -S zsh
 # TODO https://github.com/robbyrussell/oh-my-zsh
