@@ -1,37 +1,37 @@
 # assuming arch based manjaro base installation
 
-fix high dpi as outlined
-https://www.youtube.com/watch?v=5Kz2E5Xy5tw
-
 sudo pacman -S base-devel yaourt
-add https://addons.mozilla.org/de/firefox/addon/autohidpi/
-sudo pacman -S yaourt
-yaourt google-chrome
+yaourt -Syu
+pacman -Syu
 
-set zoom level to 150% https://www.cnet.com/how-to/how-to-adjust-chromes-default-zoom-settings/
+# fix high dpi as outlined
+# https://www.youtube.com/watch?v=5Kz2E5Xy5tw
+# add to firefox https://addons.mozilla.org/de/firefox/addon/autohidpi/
+sudo pacman -S yaourt
+
+yaourt google-chrome
+# set zoom level to 150% https://www.cnet.com/how-to/how-to-adjust-chromes-default-zoom-settings/
 
 sudo pacman -S dropbox
-
 sudo pacman -S terminator
 
 yaourt intelliy-idea-ultimate-edition
 yaourt pycharm-professional
+
 yaourt anaconda
-source /opt/anaconda/bin/activate root
 export PATH="/opt/anaconda/bin:$PATH"" >> ~/.bash_profile in zsh rc defined below
 conda update --all
-conda create -n neverpayer python=3.6
+conda create -n master-thesis python=3.6
+
 sudo pacman -S keepassx
 sudo pacman -S jdk8-openjdk 
 yaourt gonepass
 
 pacman -S zsh
-# TODO https://github.com/robbyrussell/oh-my-zsh
-i
+sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
 # set ZSH_THEME="kphoen"
 
 yaourt sublime-text-nightly
-#yaourt xflux
 
 sudo pacman -S maven
 yaourt -S rstudio-desktop-bin
@@ -46,6 +46,7 @@ sudo pacman -S sbt
 sudo R CMD javareconf
 yaourt apache-spark
 
+source activate master-thesis
 pip install jupyterthemes
 pip install pyfs
 pip install rpy2
@@ -60,7 +61,7 @@ jt -t chesterish
 # IRkernel::installspec()
  
 # install tensorflow
- 
+
 pip install --upgrade tensorflow-gpu
 pip install keras
 # assumes cudnn folder downloaded locally into ~/Downloads
