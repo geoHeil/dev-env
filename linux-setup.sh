@@ -1,8 +1,8 @@
 # assuming arch based manjaro base installation
 
 sudo pacman -S base-devel yaourt
-yaourt -Syu
-pacman -Syu
+yaourt -Syua
+#yaourt -Syuua --noconfirm
 
 # fix high dpi as outlined
 # https://www.youtube.com/watch?v=5Kz2E5Xy5tw
