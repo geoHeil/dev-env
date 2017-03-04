@@ -44,6 +44,7 @@ yaourt franz
 yaourt gitkraken
 sudo pacman -S sbt
 sudo R CMD javareconf
+yaourt apache-spark
 
 pip install jupyterthemes
 pip install pyfs
