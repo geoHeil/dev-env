@@ -5,3 +5,6 @@ I choose the KDE edition
 
 burn the image to a usb stick via follow https://wiki.manjaro.org/index.php?title=Burn_an_ISO_File
 dd bs=4M if=/path/to/manjaro.iso of=/dev/sd[drive letter] status=progress
+
+When creating the image on osx use
+sudo dd if=~/Downloads/manjaro-kde-16.10.3-stable-x86_64.iso of=/dev/disk2 bs=4m
