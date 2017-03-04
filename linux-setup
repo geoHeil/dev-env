@@ -23,6 +23,7 @@ conda update --all
 conda create -n neverpayer python=3.6
 sudo pacman -S keepassx
 sudo pacman -S jdk8-openjdk 
+yaourt gonepass
 
 pacman -S zsh
 # TODO https://github.com/robbyrussell/oh-my-zsh
