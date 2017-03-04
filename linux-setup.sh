@@ -1,6 +1,9 @@
 # assuming arch based manjaro base installation
 
 sudo pacman -S base-devel yaourt
+sudo pacman-mirrors -g
+sudo pacman -Syy
+
 yaourt -Syua
 #yaourt -Syuua --noconfirm
 
