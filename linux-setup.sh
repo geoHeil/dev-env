@@ -20,6 +20,7 @@ sudo pacman -S terminator
 
 yaourt intelliy-idea-ultimate-edition
 yaourt pycharm-professional
+yaourt 
 
 yaourt anaconda
 export PATH="/opt/anaconda/bin:$PATH"" >> ~/.bash_profile in zsh rc defined below
