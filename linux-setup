@@ -32,12 +32,16 @@ yaourt sublime-text-nightly
 #yaourt xflux
 
 sudo pacman -S maven
-yaourt rstudio-desktop
+yaourt -S rstudio-desktop-bin
 sudo pacman -S cuda
+yaourt cudnn
 sudo pacman -S r
+yaourt -S openblas-lapack
+sudo pacman -S gcc-fortran
 yaourt franz
 yaourt gitkraken
 sudo pacman -S sbt
+sudo R CMD javareconf
 
 pip install jupyterthemes
 pip install pyfs
@@ -61,7 +65,14 @@ pip install keras
 sudo cp lib64/* /usr/local/cuda/lib64/
 sudo cp include/* /usr/local/cuda/include/
 
+TODO install libcurl latest version
+TODO install gfortran
+https://forum.manjaro.org/t/using-the-statistical-package-r-in-manjaro-with-rstudio/484
+TODO install VCD
+tcltk.so not ofund
+IRkernel::installspec()
 
+yaourt -Syu --aur
 # TODO handle high dpi
 # TODO tastenanschlag, touchpad inversion
 # set keyboard shortcut to tile window
