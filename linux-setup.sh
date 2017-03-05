@@ -80,4 +80,4 @@ yaourt -Syuua --noconfirm
 # tastenanschlag, touchpad inversion
 # set keyboard shortcut to tile window
 TODO multi touch gestures show desktop, show all windows of an application
-
+TODO setup calendar and contact sync with google
