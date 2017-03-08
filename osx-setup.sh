@@ -33,7 +33,7 @@ brew cask install google-chrome
 brew cask install kitematic virtualbox
 brew install gcc --without-multilib
 brew install r --with-openblas
-brew cask install franz
+brew cask install rambox
 brew cask install texpad
 brew install cmake
 brew cask install kaleidoscope
