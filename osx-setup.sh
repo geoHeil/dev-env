@@ -38,7 +38,9 @@ brew cask install texpad
 brew install cmake
 brew cask install kaleidoscope
   
- 
+sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
+# set ZSH_THEME="kphoen"
+
 brew cleanup
 brew cask cleanup
  
