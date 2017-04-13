@@ -32,6 +32,7 @@ brew cask install mactex
 brew cask install google-chrome
 brew cask install kitematic virtualbox
 brew install gcc --without-multilib
+brew install openblas --with-openmp
 brew install r --with-openblas
 brew cask install rambox
 brew cask install texpad
@@ -42,6 +43,13 @@ brew install python3
   
 sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
 # set ZSH_THEME="kphoen"
+
+# put into zshRC
+export LDFLAGS="-L/usr/local/opt/openblas/lib"
+export CPPFLAGS="-I/usr/local/opt/openblas/include"
+
+export JAVA_HOME=/Library/Java/Home
+#export JAVA_HOME="$(/usr/libexec/java_home -v 1.8)" #<<< NOT this one, does not seem to work
 
 brew cleanup
 brew cask cleanup
