@@ -24,7 +24,7 @@ brew cask install iterm2 sublime-text
 brew update
  
 brew cask install spectacle flux
-brew cask install mplayerx mosh 1password anaconda sourcetree intellij-idea pycharm
+brew cask install mplayerx mosh 1password sourcetree intellij-idea pycharm
 brew cask install java rstudio
 brew install git sbt maven htop tree apache-spark packer
 brew cask install xquartz cuda
@@ -38,6 +38,7 @@ brew cask install texpad
 brew install cmake
 brew cask install kaleidoscope
 brew install gradle
+brew install python3
   
 sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
 # set ZSH_THEME="kphoen"
@@ -59,11 +60,19 @@ brew cask cleanup
 conda update --all
 conda update anaconda
  
-pip install jupyterthemes
-pip install pyfs
-pip install rpy2
-pip install imbalanced-learn
-pip install fuzzywuzzy
+pip3 install scipy
+pip3 install numpy
+pip3 install pandas
+pip3 install scikit-learn
+pip3 install matplotlib
+pip3 install seaborn
+pip3 install jupyterthemes
+pip3 install pyfs
+pip3 install rpy2
+pip3 install imbalanced-learn
+pip3 install fuzzywuzzy
+pip3 install python-levenshtein
+pip3 install --upgrade jupyter
 jt -t chesterish
  
 # install jupyter R kernel https://github.com/IRkernel/IRkernel
@@ -74,7 +83,7 @@ jt -t chesterish
  
 # install tensorflow
  
-pip install --upgrade tensorflow-gpu
+pip install tensorflow-gpu
 pip install keras
 # assumes cudnn folder downloaded locally into ~/Downloads
 # copy all to /usr/lib/cudnn respective directories
