@@ -37,6 +37,7 @@ brew cask install rambox
 brew cask install texpad
 brew install cmake
 brew cask install kaleidoscope
+brew install gradle
   
 sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
 # set ZSH_THEME="kphoen"
