@@ -49,7 +49,7 @@ export LDFLAGS="-L/usr/local/opt/openblas/lib"
 export CPPFLAGS="-I/usr/local/opt/openblas/include"
 
 export JAVA_HOME=/Library/Java/Home
-#export JAVA_HOME="$(/usr/libexec/java_home -v 1.8)" #<<< NOT this one, does not seem to work
+#export JAVA_HOME="$(/usr/libexec/java_home -v 1.8)" #<<< NOT this one, does not seem to work keep other one for R java installation, then switch back!!
 
 brew cleanup
 brew cask cleanup
@@ -77,6 +77,7 @@ pip3 install seaborn
 pip3 install jupyterthemes
 pip3 install pyfs
 pip3 install rpy2
+pip3 install bokeh
 pip3 install imbalanced-learn
 pip3 install fuzzywuzzy
 pip3 install python-levenshtein
