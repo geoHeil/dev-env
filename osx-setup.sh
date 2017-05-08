@@ -45,8 +45,11 @@ sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/to
 # set ZSH_THEME="kphoen"
 
 # put into zshRC
-export LDFLAGS="-L/usr/local/opt/openblas/lib"
-export CPPFLAGS="-I/usr/local/opt/openblas/include"
+#export LDFLAGS="-L/usr/local/opt/openblas/lib"
+#export CPPFLAGS="-I/usr/local/opt/openblas/include"
+export CC=gcc-7
+export CXX=g++-7
+export SBT_OPTS="-Xmx8G -XX:+CMSClassUnloadingEnabled -Xss2M"
 
 export JAVA_HOME=/Library/Java/Home
 #export JAVA_HOME="$(/usr/libexec/java_home -v 1.8)" #<<< NOT this one, does not seem to work keep other one for R java installation, then switch back!!
