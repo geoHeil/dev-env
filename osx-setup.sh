@@ -70,7 +70,8 @@ brew cask cleanup
 # install python packages
 conda update --all
 conda update anaconda
- 
+
+pip3 install --upgrade pip setuptools wheel
 pip3 install scipy
 pip3 install numpy
 pip3 install pandas
@@ -95,8 +96,9 @@ jt -t chesterish
  
 # install tensorflow
  
-pip install tensorflow-gpu
-pip install keras
+pip3 install tensorflow-gpu
+pip3 install keras
+pip3 install dask
 # assumes cudnn folder downloaded locally into ~/Downloads
 # copy all to /usr/lib/cudnn respective directories
 sudo cp lib64/* /usr/local/cuda/lib64/
