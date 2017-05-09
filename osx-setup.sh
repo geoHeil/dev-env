@@ -68,6 +68,7 @@ brew cask cleanup
 # fix paprika
  
 # install python packages
+brew cask install anaconda
 conda update --all
 conda update anaconda
 
