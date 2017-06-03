@@ -120,3 +120,4 @@ brew tap osgeo/osgeo4mac && brew tap --repair
 brew install gdal2 --with-armadillo --with-complete --with-libkml --with-opencl --with-postgresql --with-java
 brew link gdal2 --force
 brew install osgeo/osgeo4mac/qgis2 --with-r --with-saga-gis --with-grass
+brew reinstall osgeo/osgeo4mac/gdal2-python --with-python3
