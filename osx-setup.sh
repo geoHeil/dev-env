@@ -123,3 +123,6 @@ brew install osgeo/osgeo4mac/qgis2 --with-r --with-saga-gis --with-grass
 brew reinstall osgeo/osgeo4mac/gdal2-python --with-python3
 brew link --force osgeo/osgeo4mac/gdal2-python
 pip3 install geopandas
+
+# network
+brew cask install caskroom/cask/wireshark
