@@ -126,3 +126,8 @@ pip3 install geopandas
 
 # network
 brew cask install caskroom/cask/wireshark
+
+# docker 
+# https://github.com/docker/compose/issues/3419
+# /etc/hosts
+127.0.0.1 localunixsocket.local
