@@ -5,3 +5,4 @@ brew cask install dropbox
 brew cask install flux
 brew cask install firefox
 brew cask install little-snitch
+brew cask install 1password
