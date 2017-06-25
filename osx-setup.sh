@@ -131,3 +131,14 @@ brew cask install caskroom/cask/wireshark
 # https://github.com/docker/compose/issues/3419
 # /etc/hosts
 127.0.0.1 localunixsocket.local
+
+############
+# custom build of tensorflow as osx gpu is no longer supported - follow along with https://www.tensorflow.org/install/install_sources
+git clone https://github.com/tensorflow/tensorflow
+cd tensorflow
+git checkout v1.2.0 <<branch>> # choosing here v1.2.0
+brew install bazel
+pip3 install dev
+brew install coreutils
+# https://gist.github.com/Mistobaan/dd32287eeb6859c6668d
+# TODO continue 
