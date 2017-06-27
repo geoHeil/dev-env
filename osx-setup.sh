@@ -21,7 +21,7 @@ brew install caskroom/cask/1password
 brew update
   
 brew cask install spectacle flux
-brew cask install mplayerx mosh  assword sourcetree intellij-idea pycharm
+brew cask install mplayerx mosh sourcetree intellij-idea pycharm
 brew cask install java rstudio
 brew install git sbt maven htop tree apache-spark packer
 brew cask install xquartz cuda
