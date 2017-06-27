@@ -146,6 +146,7 @@ brew install apache-flink
 brew install nifi
 brew install hbase
 brew cask install datagrip
+brew cask install teamviewer skype
 
 ############
 # custom build of tensorflow as osx gpu is no longer supported - follow along with https://www.tensorflow.org/install/install_sources
