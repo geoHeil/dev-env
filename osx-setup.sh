@@ -92,9 +92,11 @@ jt -t chesterish
  
 # install jupyter R kernel https://github.com/IRkernel/IRkernel
 # in R session
-# install.packages(c('repr', 'IRdisplay', 'crayon', 'pbdZMQ', 'devtools'))
+# install.packages(c('repr', 'IRdisplay', 'crayon', 'pbdZMQ', 'devtools', 'dplyr', 'stringr', 'reshape2'))
+# install.packages(c('ggplot2', 'forecast', 'randomforest', 'lubridate'))
 # devtools::install_github('IRkernel/IRkernel')
 # IRkernel::installspec()
+R CMD javareconf JAVA_CPPFLAGS=-I/System/Library/Frameworks/JavaVM.framework/Headers
  
 # install tensorflow
  
@@ -133,7 +135,6 @@ brew cask install caskroom/cask/wireshark
 # /etc/hosts
 127.0.0.1 localunixsocket.local
 
-# R java configuration !! TODO
 brew cask install jdownloader
 brew install apache-flink
 brew install nifi
