@@ -86,7 +86,6 @@ pip3 install bokeh
 pip3 install imbalanced-learn
 pip3 install fuzzywuzzy
 pip3 install python-levenshtein
-pip3 install --upgrade jupyter
 jt -t chesterish
  
 # install jupyter R kernel https://github.com/IRkernel/IRkernel
@@ -113,7 +112,7 @@ sudo cp include/* /usr/local/cuda/include/
 sudo ln -sf /usr/local/cuda/lib/libcuda.dylib /usr/local/cuda/lib/libcuda.1.dylib
 # finally test with python then import tensorflow
 
-
+brew cask install spotify
 # osgeo gdal 2
 # https://www.karambelkar.info/2016/10/gdal-2-on-mac-with-homebrew/
 brew tap osgeo/osgeo4mac && brew tap --repair
@@ -134,6 +133,9 @@ brew cask install caskroom/cask/wireshark
 
 # R java configuration !! TODO
 brew cask install jdownloader
+brew install apache-flink
+brew install nifi
+brew install hbase
 
 ############
 # custom build of tensorflow as osx gpu is no longer supported - follow along with https://www.tensorflow.org/install/install_sources
