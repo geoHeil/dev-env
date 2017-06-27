@@ -15,6 +15,7 @@ brew cask install dropbox
  
 brew tap caskroom/cask
 brew tap homebrew/science
+brew tap caskroom/driver
  
 brew cask install iterm2 sublime-text
 brew install caskroom/cask/1password
@@ -37,6 +38,7 @@ brew install cmake
 brew cask install kaleidoscope
 brew install gradle
 brew install python3
+brew install wget
   
 sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
 # set ZSH_THEME="kphoen"
@@ -94,7 +96,7 @@ jt -t chesterish
  
 # install tensorflow
  
-pip3 install tensorflow-gpu
+#pip3 install tensorflow-gpu # TODO compile
 pip3 install keras
 pip3 install dask
 # assumes cudnn folder downloaded locally into ~/Downloads
@@ -128,6 +130,8 @@ brew cask install caskroom/cask/wireshark
 # https://github.com/docker/compose/issues/3419
 # /etc/hosts
 127.0.0.1 localunixsocket.local
+
+# R java configuration !! TODO
 
 ############
 # custom build of tensorflow as osx gpu is no longer supported - follow along with https://www.tensorflow.org/install/install_sources
