@@ -40,6 +40,7 @@ brew install gradle
 brew install python3
 brew install wget
 brew cask install little-snitch
+brew cask install xquartz
   
 sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
 # set ZSH_THEME="kphoen"
@@ -137,6 +138,7 @@ brew cask install jdownloader
 brew install apache-flink
 brew install nifi
 brew install hbase
+brew cask install datagrip
 
 ############
 # custom build of tensorflow as osx gpu is no longer supported - follow along with https://www.tensorflow.org/install/install_sources
