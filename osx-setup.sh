@@ -39,6 +39,7 @@ brew cask install kaleidoscope
 brew install gradle
 brew install python3
 brew install wget
+brew cask install little-snitch
   
 sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
 # set ZSH_THEME="kphoen"
