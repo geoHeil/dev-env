@@ -132,6 +132,7 @@ brew cask install caskroom/cask/wireshark
 127.0.0.1 localunixsocket.local
 
 # R java configuration !! TODO
+brew cask install jdownloader
 
 ############
 # custom build of tensorflow as osx gpu is no longer supported - follow along with https://www.tensorflow.org/install/install_sources
