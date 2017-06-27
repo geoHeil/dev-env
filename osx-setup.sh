@@ -1,14 +1,10 @@
-# install a new mac
-# brew
+# install a new mac - brew
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew cask install dropbox
 # assumptions
-# - sublime
 # - dropbox setup and configured
 # - little-snitch
 # - homebrew
-# - spectacle
-# - flux
 # - xcode
 # - docker for mac
 # - configure VPN TU Wien, L2TP over IPSec
@@ -21,10 +17,11 @@ brew tap caskroom/cask
 brew tap homebrew/science
  
 brew cask install iterm2 sublime-text
+brew install caskroom/cask/1password
 brew update
- 
+  
 brew cask install spectacle flux
-brew cask install mplayerx mosh 1password sourcetree intellij-idea pycharm
+brew cask install mplayerx mosh  assword sourcetree intellij-idea pycharm
 brew cask install java rstudio
 brew install git sbt maven htop tree apache-spark packer
 brew cask install xquartz cuda
