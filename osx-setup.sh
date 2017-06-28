@@ -37,6 +37,8 @@ export USE_OPENMP=1
 make
 make install
 
+brew install cmake
+
 brew install r --with-openblas
 brew cask install rambox
 brew cask install texpad
