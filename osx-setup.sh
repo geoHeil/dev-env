@@ -121,6 +121,9 @@ sudo cp include/* /usr/local/cuda/include/
 # graph visualiztation tools
 # Gephi.app, 
 # copy other missing apps
+# download cudnn, copy to
+sudo cp include/* /usr/local/cuda/include/
+sudo cp lib/* /usr/local/cuda/lib/
 sudo ln -sf /usr/local/cuda/lib/libcuda.dylib /usr/local/cuda/lib/libcuda.1.dylib
 # finally test with python then import tensorflow
 
