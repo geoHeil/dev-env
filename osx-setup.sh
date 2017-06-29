@@ -25,7 +25,7 @@ brew cask install spectacle flux
 brew cask install mplayerx mosh sourcetree intellij-idea pycharm
 brew cask install java rstudio
 brew install git sbt maven htop tree apache-spark packer
-brew cask install xquartz cuda
+brew cask install xquartz
 brew cask install mactex
 brew cask install google-chrome
 brew cask install kitematic virtualbox
@@ -121,6 +121,9 @@ sudo cp include/* /usr/local/cuda/include/
 # graph visualiztation tools
 # Gephi.app, 
 # copy other missing apps
+
+brew cask install cuda
+
 # download cudnn, copy to
 sudo cp include/* /usr/local/cuda/include/
 sudo cp lib/* /usr/local/cuda/lib/
