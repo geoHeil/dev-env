@@ -7,3 +7,4 @@ brew cask install firefox
 brew cask install little-snitch
 brew cask install 1password
 brew cask install mendeley-desktop
+brew cask install teamviewer
