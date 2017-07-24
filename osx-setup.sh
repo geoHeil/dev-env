@@ -30,15 +30,8 @@ brew cask install mactex
 brew cask install google-chrome
 brew cask install kitematic virtualbox
 brew install gcc --without-multilib
-# brew install openblas --with-openmp # kaby lake not yet supported in latest release - let's build from source
-git clone git@github.com:xianyi/OpenBLAS.git
-cd OpenBlas
-export USE_OPENMP=1
-make
-make install
-
+brew install openblas --with-openmp
 brew install cmake
-
 brew install r --with-openblas
 brew cask install rambox
 brew cask install texpad
