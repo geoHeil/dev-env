@@ -127,7 +127,7 @@ brew cask install spotify
 # osgeo gdal 2
 # https://www.karambelkar.info/2016/10/gdal-2-on-mac-with-homebrew/
 brew tap osgeo/osgeo4mac && brew tap --repair
-brew install gdal2 --with-armadillo --with-complete --with-libkml --with-opencl --with-postgresql --with-java
+brew install gdal2 --with-armadillo --with-complete --with-libkml --with-opencl --with-java
 brew link gdal2 --force
 brew install osgeo/osgeo4mac/qgis2 --with-r --with-saga-gis --with-grass
 brew reinstall osgeo/osgeo4mac/gdal2-python --with-python3
