@@ -1,0 +1,18 @@
+# ~.gitattributes
+
+[alias]
+lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+lg5 = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative -n 5
+lg10 = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative -n 10
+ll = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --numstat
+up = "!git remote update -p; git merge --ff-only @{u}"
+ci = commit
+acim = "!git add -u; git commit -m"
+co = checkout
+st = status
+br = branch -a
+sb = show-branch
+sbs = show-branch --sha1-name
+acp = "!git add -u; git ci; git push"
+pb = "!git push origin $(git rev-parse --abbrev-ref HEAD)"
+rr = "!git rebase -i $(git merge-base `git rev-parse --abbrev-ref HEAD` master)"
