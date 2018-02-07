@@ -160,3 +160,9 @@ pip3 install dev
 brew install coreutils
 # https://gist.github.com/Mistobaan/dd32287eeb6859c6668d and https://medium.com/@fabmilo/how-to-compile-tensorflow-with-cuda-support-on-osx-fd27108e27e1
 # TODO continue 
+
+
+#############
+# vim
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+# https://github.com/VundleVim/Vundle.Vim
