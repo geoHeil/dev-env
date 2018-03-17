@@ -166,3 +166,10 @@ brew install coreutils
 # vim
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 # https://github.com/VundleVim/Vundle.Vim
+
+#############
+# tmux
+cd ~/development 
+git clone https://github.com/samoshkin/tmux-config.git
+cd tmux-config
+./install.sh
