@@ -14,7 +14,7 @@ brew cask install dropbox
 #   server address terminator.tuwien.ac.at
  
 brew tap caskroom/cask
-brew tap homebrew/science
+# brew tap homebrew/science
 brew tap caskroom/driver
  
 brew cask install iterm2 sublime-text
@@ -129,11 +129,13 @@ brew cask install spotify
 brew tap osgeo/osgeo4mac && brew tap --repair
 brew install gdal2 --with-armadillo --with-complete --with-libkml --with-opencl --with-java
 brew link gdal2 --force
-brew install osgeo/osgeo4mac/qgis2 --with-r --with-saga-gis --with-grass
+#brew install osgeo/osgeo4mac/qgis2 --with-r --with-saga-gis --with-grass
 brew reinstall osgeo/osgeo4mac/gdal2-python --with-python3
 brew link --force osgeo/osgeo4mac/gdal2-python
 pip3 install geopandas
-brew linkapps qgis2
+#brew linkapps qgis2
+#brew tap-pin qgis/qgisdev
+#brew install qgis/qgisdev/qgis3-dev --with-grass --with-oracle --with-r
 
 # network
 brew cask install caskroom/cask/wireshark
