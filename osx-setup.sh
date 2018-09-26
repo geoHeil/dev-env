@@ -24,6 +24,7 @@ brew update
 brew cask install spectacle flux
 brew cask install mplayerx mosh sourcetree intellij-idea pycharm
 brew cask install java rstudio
+jdk8 + 11 https://gist.github.com/alChaCC/ddb11542c9e6b6683bad80d9ca858bc5
 brew install git sbt maven htop tree apache-spark packer
 brew cask install xquartz
 brew cask install mactex
