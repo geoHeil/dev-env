@@ -86,6 +86,10 @@ conda install -y jupyter_contrib_nbextensions
 
 brew cask install google-cloud-sdk
 
+conda create -y -n ds_38 python=3.8 geopandas h3-py jupyterlab seaborn
+conda activate ds_38
+pip install keplergl
+
 # assumptions
 # - dropbox setup and configured
 # - little-snitch
@@ -107,18 +111,9 @@ brew cask install google-cloud-sdk
 # copy vim rc
 # launch vim and run :PluginInstall
 # copy existing zshrc
-# ****************remaining tasks
-
-fix CXX
-
-conda install geopandas \!!!
-lightgbm \
-
-conda install -y lightgbm
-conda install -y geopandas
+# install lightGbm & geopandas as needed in separate conda envs
+# screenshot tools cmd + shfit + 5 & demopro app & skitch
 
 file transfer
 adobe presets
-
 backup einrichten
-screen annotation tool
