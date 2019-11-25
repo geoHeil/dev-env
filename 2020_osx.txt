@@ -1,0 +1,124 @@
+Install Xcode
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+brew cask
+brew cask install 1password
+
+brew cask install iterm2 sublime-text
+brew cask install spectacle \
+  flux \
+  dropbox
+brew install mosh
+brew cask install mplayerx sourcetree intellij-idea pycharm adobe-creative-cloud
+brew cask install mactex
+Brew install homebrew/cask-versions/firefox-developer-edition
+brew install jenv
+brew install gradle
+brew cask install texpad rambox
+brew tap AdoptOpenJDK/openjdk
+brew cask install adoptopenjdk8
+brew cask install adoptopenjdk
+
+jenv add /Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/
+Add the other one as well
+Set 1.8 as global
+jenv global 1.8
+
+# manual
+# docker desktop
+
+# https://www.dhiller.de/2019/01/06/setup-multiple-jdks-with-jenv-and-adoptopenjdk.html
+
+brew install git sbt maven htop tree apache-spark packer
+brew cask install virtualbox
+brew cask install spotify
+
+brew cask install miniconda
+conda config --set auto_activate_base false
+
+brew cask install xquartz
+
+sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
+
+brew cask install jdownloader
+brew install apache-flink
+brew install nifi
+brew cask install wireshark
+brew cask install android-studio
+brew cask install datagrip
+brew cask install teamviewer skype
+brew cask install qgis
+
+conda create -y -n ds_37 python=3.7
+# to cleanup
+# conda remove --name df_37 --all
+
+conda activate ds_37
+conda config --add channels conda-forge
+conda config --add channels r
+conda config --set channel_priority strict
+
+conda install -y -c r r-essentials r-base rstudio 
+conda install -y jupyterlab \
+	scipy \
+	scikit-learn \
+	numpy \
+	seaborn \
+	dask \
+	pyarrow \
+	xgboost \
+	rpy2 \
+	h3-py
+conda install -y yarn nodejs
+conda install -c pyviz holoviews bokeh
+
+pip install keplergl
+
+brew cask install signal
+brew cask install tor-browser
+brew cask install tunnelblick
+
+pip install azure-cli
+pip install databricks-cli
+pip install dask_labextension
+jupyter labextension install dask-labextension
+
+conda install -y jupyter_contrib_nbextensions
+
+brew cask install google-cloud-sdk
+
+# assumptions
+# - dropbox setup and configured
+# - little-snitch
+# - homebrew
+# - xcode
+# - docker for mac
+# - configure VPN TU Wien, L2TP over IPSec
+#   shared secret vpn2tu
+#   user tu wien
+#   password - tu password
+#   server address terminator.tuwien.ac.at
+#
+# sync plugins vscode using the settings sync plugin
+# msoffice
+# rambox configuration
+# azcopy
+# tweetbot
+#git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+# copy vim rc
+# launch vim and run :PluginInstall
+# copy existing zshrc
+# ****************remaining tasks
+
+fix CXX
+
+conda install geopandas \!!!
+lightgbm \
+
+conda install -y lightgbm
+conda install -y geopandas
+
+file transfer
+adobe presets
+
+backup einrichten
+screen annotation tool
