@@ -89,6 +89,7 @@ brew cask install google-cloud-sdk
 conda create -y -n ds_38 python=3.8 geopandas h3-py jupyterlab seaborn
 conda activate ds_38
 pip install keplergl
+brew cask install keepassx
 
 # assumptions
 # - dropbox setup and configured
