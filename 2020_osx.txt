@@ -90,6 +90,10 @@ conda create -y -n ds_38 python=3.8 geopandas h3-py jupyterlab seaborn
 conda activate ds_38
 pip install keplergl
 brew cask install keepassx
+brew cask install native-access
+brew cask install android-sdk
+brew install hugo
+conda install -y xlrd
 
 # assumptions
 # - dropbox setup and configured
@@ -115,6 +119,9 @@ brew cask install keepassx
 # install lightGbm & geopandas as needed in separate conda envs
 # screenshot tools cmd + shfit + 5 & demopro app & skitch
 
-file transfer
 adobe presets
 backup einrichten
+validate development projects
+	.gradle
+	
+sync task lists
