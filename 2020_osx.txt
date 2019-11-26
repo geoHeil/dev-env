@@ -94,6 +94,7 @@ brew cask install native-access
 brew cask install android-sdk
 brew install hugo
 conda install -y xlrd
+brew install graphviz
 
 # assumptions
 # - dropbox setup and configured
