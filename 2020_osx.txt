@@ -93,8 +93,7 @@ brew cask install keepassx
 brew cask install native-access
 brew cask install android-sdk
 brew install hugo
-conda install -y xlrd
-brew install graphviz
+conda install -y xlrd python-graphviz graphviz
 
 # assumptions
 # - dropbox setup and configured
