@@ -76,6 +76,7 @@ pip install keplergl
 brew cask install signal
 brew cask install tor-browser
 brew cask install tunnelblick
+brew cask install vlc iina
 
 pip install azure-cli
 pip install databricks-cli
