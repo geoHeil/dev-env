@@ -1,0 +1,28 @@
+# phd
+
+conda create -y -n phd python=3.7
+# to cleanup
+# conda remove --name phd --all
+conda activate phd
+conda config --add channels conda-forge
+conda config --add channels r
+conda config --set channel_priority strict
+conda install -y -c r r-essentials r-base rstudio 
+
+conda install -y jupyterlab \
+	scipy \
+	scikit-learn \
+	numpy \
+	seaborn \
+	dask \
+	pyarrow \
+	rpy2 \
+  geopandas \
+	h3-py
+conda install -y yarn nodejs
+conda install -c pyviz holoviews bokeh
+conda install -y jupyter_contrib_nbextensions
+
+pip install keplergl
+pip install dask_labextension
+jupyter labextension install dask-labextension
