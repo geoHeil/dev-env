@@ -17,7 +17,7 @@ conda install -y jupyterlab \
 	dask \
 	pyarrow \
 	rpy2 \
-	xlrd \
+	xlrd openpyxl \
         geopandas \
 	h3-py
 conda install -y yarn nodejs
