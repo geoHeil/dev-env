@@ -17,7 +17,8 @@ conda install -y jupyterlab \
 	dask \
 	pyarrow \
 	rpy2 \
-  geopandas \
+	xlrd \
+        geopandas \
 	h3-py
 conda install -y yarn nodejs
 conda install -c pyviz holoviews bokeh
