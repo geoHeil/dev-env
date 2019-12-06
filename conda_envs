@@ -20,6 +20,7 @@ conda install -y jupyterlab \
 	xlrd openpyxl \
         geopandas \
 	tqdm \
+	pandas-profiling \
 	h3-py
 conda install -y yarn nodejs
 conda install -c pyviz holoviews bokeh
