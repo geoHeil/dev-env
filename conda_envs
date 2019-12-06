@@ -21,7 +21,8 @@ conda install -y jupyterlab \
         geopandas \
 	tqdm \
 	pandas-profiling \
-	h3-py
+	h3-py \
+	descartes
 conda install -y yarn nodejs
 conda install -c pyviz holoviews bokeh
 conda install -y jupyter_contrib_nbextensions
