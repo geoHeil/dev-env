@@ -96,6 +96,9 @@ brew cask install android-sdk
 brew install hugo
 conda install -y xlrd python-graphviz graphviz
 
+
+brew install dnscrypt-proxy
+
 # assumptions
 # - dropbox setup and configured
 # - little-snitch
