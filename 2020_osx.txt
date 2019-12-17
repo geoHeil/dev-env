@@ -122,6 +122,7 @@ brew install dnscrypt-proxy
 # copy existing zshrc
 # install lightGbm & geopandas as needed in separate conda envs
 # screenshot tools cmd + shfit + 5 & demopro app & skitch
+brew cask install logitech-presentation
 
 adobe presets
 backup einrichten
