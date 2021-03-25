@@ -46,6 +46,9 @@ brew cask install xquartz
   
 sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
 # set ZSH_THEME="kphoen"
+# https://github.com/romkatv/powerlevel10k
+brew tap homebrew/cask-fonts
+brew install --cask font-hack-nerd-font
 
 # put into zshRC
 #export LDFLAGS="-L/usr/local/opt/openblas/lib"
