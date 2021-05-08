@@ -130,3 +130,5 @@ validate development projects
 	.gradle
 	
 sync task lists
+
+https://gist.github.com/nepsilon/0fd0c779f76d7172f12477ba9d71bb66
