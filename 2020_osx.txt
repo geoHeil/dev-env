@@ -1,5 +1,9 @@
 Install Xcode
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+# correct homebrew installation
+https://github.com/withfig/fig/discussions/300
+
 brew cask
 brew cask install 1password
 
