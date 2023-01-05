@@ -74,7 +74,10 @@ brew cask cleanup
 # fix paprika
  
 # install python packages
-brew install micromamba
+#brew install micromamba
+brew install mambaforge
+conda init
+
 # in the security viewer (manually in the GUI) accept tne non signed binary
 /usr/local/bin/micromamba shell init -s zsh -p ~/micromamba
 #brew cask install anaconda
