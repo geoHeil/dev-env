@@ -74,9 +74,12 @@ brew cask cleanup
 # fix paprika
  
 # install python packages
-brew cask install anaconda
-conda update --all
-conda update anaconda
+brew install micromamba
+# in the security viewer (manually in the GUI) accept tne non signed binary
+/usr/local/bin/micromamba shell init -s zsh -p ~/micromamba
+#brew cask install anaconda
+#conda update --all
+#conda update anaconda
 
 pip3 install --upgrade pip setuptools wheel
 pip3 install scipy
