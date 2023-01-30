@@ -29,6 +29,7 @@ brew install openjdk@17
 # jdk8 + 11 https://gist.github.com/alChaCC/ddb11542c9e6b6683bad80d9ca858bc5
 # brew install --cask rstudio
 #brew tap caskroom/versions
+brew install --cask sublime-text visual-studio-code
 brew install jenv
 # setup jenv
 sudo ln -sfn /opt/homebrew/opt/openjdk@17/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk-17.jdk
@@ -191,12 +192,24 @@ install jdownloader form: https://jdownloader.org/download/index
 brew install --cask adobe-creative-cloud
 #############
 # vim
-git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+###
+# inside .vimrc
+let data_dir = has('nvim') ? stdpath('data') . '/site' : '~/.vim'
+if empty(glob(data_dir . '/autoload/plug.vim'))
+  silent execute '!curl -fLo '.data_dir.'/autoload/plug.vim --create-dirs  https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+  autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
+endif
+# then set .vimrc file from this repository
+# then :PlugInstall from inside vim
+###
+#git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 # https://github.com/VundleVim/Vundle.Vim
 
 #############
 # tmux
-cd ~/development 
-git clone https://github.com/samoshkin/tmux-config.git
-cd tmux-config
-./install.sh
+#cd ~/development 
+#git clone https://github.com/samoshkin/tmux-config.git
+#cd tmux-config
+#./install.sh
