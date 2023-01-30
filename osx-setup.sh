@@ -1,5 +1,6 @@
 # install a new mac - brew
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+brew install --cask 1password
 brew cask install dropbox
 # assumptions
 # - dropbox setup and configured
@@ -18,7 +19,6 @@ brew tap caskroom/cask
 brew tap caskroom/driver
  
 brew cask install iterm2 sublime-text
-brew install caskroom/cask/1password
 brew update
   
 brew cask install spectacle flux
