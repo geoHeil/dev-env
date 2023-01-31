@@ -20,6 +20,7 @@ brew install --cask tor-browser
 brew install --cask trezor-suite
 brew install --cask yubico-yubikey-manager
 brew install dnscrypt-proxy
+# https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-macOS
 # https://gist.github.com/quinncomendant/ab2f107d92c402d67287e636756927f0
 
 # assumptions
