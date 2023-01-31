@@ -3,6 +3,7 @@
 brew install --cask 1password
 brew install --cask dropbox
 brew install --cask iterm2 sublime-text
+brew install --cask carbon-copy-cloner
 # assumptions
 # - dropbox setup and configured
 # - little-snitch
