@@ -15,7 +15,10 @@ brew install --cask garmin-express
 brew install --cask handbrake
 brew install --cask logitech-presentation
 brew install --cask native-access
-
+brew install --cask spotify
+brew install --cask tor-browser
+brew install --cask trezor-suite
+brew install --cask yubico-yubikey-manager
 
 # assumptions
 # - dropbox setup and configured
