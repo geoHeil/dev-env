@@ -10,7 +10,7 @@ brew install --cask element
 brew tap homebrew/cask-drivers
 brew install --cask elgato-stream-deck
 brew install --cask elgato-control-center 
-brew install --cask exodus
+#brew install --cask exodus
 brew install --cask garmin-express
 brew install --cask handbrake
 brew install --cask logitech-presentation
