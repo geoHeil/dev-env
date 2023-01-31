@@ -19,6 +19,7 @@ brew install --cask spotify
 brew install --cask tor-browser
 brew install --cask trezor-suite
 brew install --cask yubico-yubikey-manager
+brew install dnscrypt-proxy
 
 # assumptions
 # - dropbox setup and configured
