@@ -4,6 +4,7 @@ brew install --cask 1password
 brew install --cask dropbox
 brew install --cask iterm2 sublime-text
 brew install --cask carbon-copy-cloner
+
 # assumptions
 # - dropbox setup and configured
 # - little-snitch
@@ -24,13 +25,15 @@ brew cask install iterm2 sublime-text
 brew update
   
 brew install --cask flux Rectangle
-brew install --cask mplayerx sourcetree intellij-idea pycharm datagrip
+brew install --cask iina sourcetree intellij-idea pycharm datagrip
 #brew install --cask java 
 brew install openjdk@17
 # jdk8 + 11 https://gist.github.com/alChaCC/ddb11542c9e6b6683bad80d9ca858bc5
 # brew install --cask rstudio
 #brew tap caskroom/versions
-brew install --cask sublime-text visual-studio-code
+brew install --cask visual-studio-code
+brew install --cask discord slack
+brew install --cask microsoft-office
 brew install jenv
 # setup jenv
 sudo ln -sfn /opt/homebrew/opt/openjdk@17/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk-17.jdk
