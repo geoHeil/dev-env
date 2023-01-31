@@ -4,6 +4,18 @@ brew install --cask 1password
 brew install --cask dropbox
 brew install --cask iterm2 sublime-text
 brew install --cask carbon-copy-cloner
+brew install --cask zoom
+brew install --cask signal
+brew install --cask element
+brew tap homebrew/cask-drivers
+brew install --cask elgato-stream-deck
+brew install --cask elgato-control-center 
+brew install --cask exodus
+brew install --cask garmin-express
+brew install --cask handbrake
+brew install --cask logitech-presentation
+brew install --cask native-access
+
 
 # assumptions
 # - dropbox setup and configured
@@ -44,7 +56,7 @@ brew install git htop tree apache-spark gradle
 #brenstall sbt maven packer
 #brew install --cask xquartz
 #brew install --cask mactex
-#brew install --cask google-chrome
+brew install --cask google-chrome
 #brew install --cask kitematic virtualbox
 #brew install gcc --without-multilib
 #brew install openblas --with-openmp
