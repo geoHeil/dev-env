@@ -238,5 +238,15 @@ endif
 # tmux
 #cd ~/development 
 #git clone https://github.com/samoshkin/tmux-config.git
+
+
+
 #cd tmux-config
 #./install.sh
+
+
+
+brew install osm2pgrouting osm2pgsql osmfilter
+
+
+brew install osm2pgrouting osm2pgsql osmfilter
