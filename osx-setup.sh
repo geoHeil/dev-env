@@ -7,6 +7,7 @@ brew install --cask carbon-copy-cloner
 brew install --cask zoom
 brew install --cask signal
 brew install --cask element
+brew install openssh
 brew tap homebrew/cask-drivers
 brew install --cask elgato-stream-deck
 brew install --cask elgato-control-center 
