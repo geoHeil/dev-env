@@ -23,6 +23,8 @@ brew install --cask yubico-yubikey-manager
 brew install --cask qgis
 brew install dnscrypt-proxy
 brew install hugo
+brew install rustup-init
+rustup-init
 # https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-macOS
 #  open /opt/homebrew/etc/dnscrypt-proxy.toml
 # 
