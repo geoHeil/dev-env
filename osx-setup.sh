@@ -24,6 +24,12 @@ brew install --cask qgis
 brew install dnscrypt-proxy
 brew install hugo
 brew install rustup-init
+brew install nvm
+# set up zshrc
+nvm install --lts
+nvm use --lts
+npm install --global yo
+npm install generator-office
 rustup-init
 # https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-macOS
 #  open /opt/homebrew/etc/dnscrypt-proxy.toml
