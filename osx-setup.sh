@@ -42,6 +42,7 @@ rustup-init
 # - homebrew
 # - xcode
 # - docker for mac
+brew install --cask rancher
 # - configure VPN TU Wien, L2TP over IPSec
 #   shared secret vpn2tu
 #   user tu wien
