@@ -24,6 +24,7 @@ brew install --cask qgis
 brew install dnscrypt-proxy
 brew install hugo
 brew install rustup-init
+cargo install solo2
 brew install nvm
 # set up zshrc
 nvm install --lts
