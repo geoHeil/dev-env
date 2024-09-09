@@ -102,6 +102,7 @@ conda install -y xlrd python-graphviz graphviz
 
 
 brew install dnscrypt-proxy
+# https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Forwarding
 
 # assumptions
 # - dropbox setup and configured
