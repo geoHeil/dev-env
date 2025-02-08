@@ -260,3 +260,9 @@ brew install osm2pgrouting osm2pgsql osmfilter
 
 
 brew install osm2pgrouting osm2pgsql osmfilter
+
+
+#################
+# useful items
+
+# - https://carapace-sh.github.io/carapace-bin/completers.html
