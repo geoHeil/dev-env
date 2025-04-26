@@ -266,3 +266,13 @@ brew install osm2pgrouting osm2pgsql osmfilter
 # useful items
 
 # - https://carapace-sh.github.io/carapace-bin/completers.html
+
+
+###### pixi globals
+pixi global install pipx
+
+pipx ensurepath
+pipx completions
+# sudo pipx ensurepath --global # optional to allow pipx actions with --global argument
+
+pipx install open-codex
