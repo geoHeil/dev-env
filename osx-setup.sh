@@ -276,3 +276,43 @@ pipx completions
 # sudo pipx ensurepath --global # optional to allow pipx actions with --global argument
 
 pipx install open-codex
+
+# https://freedium.cfd/https://blog.akshaykhale.com/terminal-setup-like-a-senior-dev-f282542478da
+#brew install starship
+#eval "$(starship init zsh)"
+mkdir -p ~/.config && touch ~/.config/starship.toml
+
+#####################
+# Get editor completions based on the config schema
+"$schema" = 'https://starship.rs/config-schema.json'
+
+# Inserts a blank line between shell prompts
+add_newline = true
+
+# Replace the '❯' symbol in the prompt with '➜'
+[character]
+success_symbol = '[➜](bold green)'
+error_symbol = '[➜](bold red)'
+
+[battery]
+full_symbol = '🔋 '
+charging_symbol = '⚡️ '
+discharging_symbol = '💀 '
+
+[deno]
+format = 'via [🦕 $version](green bold) '
+
+# Disable the package module, hiding it from the prompt completely
+[package]
+disabled = true
+
+[git_branch]
+symbol = '🌱 '
+truncation_symbol = ''
+
+[nodejs]
+format = 'via [🤖 $version](bold green) '
+
+[php]
+format = 'via [🔹 $version](147 bold) '
+#####################
