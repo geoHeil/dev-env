@@ -316,3 +316,10 @@ format = 'via [🤖 $version](bold green) '
 [php]
 format = 'via [🔹 $version](147 bold) '
 #####################
+
+brew install eza
+# in ~/.zshrc
+alias ls='eza --icons --group-directories-first'
+alias ll='eza -la --icons --group-directories-first'
+alias lt='eza --tree --icons'
+
