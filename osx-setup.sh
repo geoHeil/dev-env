@@ -323,3 +323,12 @@ alias ls='eza --icons --group-directories-first'
 alias ll='eza -la --icons --group-directories-first'
 alias lt='eza --tree --icons'
 
+# Use Neovim everywhere
+if command -v nvim >/dev/null 2>&1; then
+  alias vi='nvim'
+  alias vim='nvim'
+  export VISUAL='nvim'
+  export EDITOR='nvim'
+fi
+
+
