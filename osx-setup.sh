@@ -324,6 +324,7 @@ brew install procs
 brew install git-delta
 brew install broot
 brew install fzf
+brew install zoxide
 
 # in ~/.zshrc
 alias ls='eza --icons --group-directories-first'
