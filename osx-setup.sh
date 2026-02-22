@@ -318,10 +318,12 @@ format = 'via [🔹 $version](147 bold) '
 #####################
 
 brew install eza
+pixi global install bat
 # in ~/.zshrc
 alias ls='eza --icons --group-directories-first'
 alias ll='eza -la --icons --group-directories-first'
 alias lt='eza --tree --icons'
+ alias cat='~/.pixi/bin/bat
 
 # Use Neovim everywhere
 if command -v nvim >/dev/null 2>&1; then
